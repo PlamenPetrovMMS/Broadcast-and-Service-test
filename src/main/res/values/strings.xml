@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AcceptanceApp2</string>
+    <string name="textView">Hello, Chuangda!</string>
+    <string name="button">Activity B</string>
+    <string name="startButton">Start Receiver</string>
+    <string name="stopButton">Stop Receiver</string>
+    <string name="buttonC">Open Dialog</string>
+</resources>

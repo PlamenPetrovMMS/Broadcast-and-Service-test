@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityC">
+
+    <ImageView
+        android:id="@+id/imageViewC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="200dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="fitCenter"
+        android:padding="40dp"
+        android:src="@drawable/book2"
+        android:background="@drawable/outline_shape"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/openDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewC"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buttonC"
+        />
+
+</RelativeLayout>
