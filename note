@@ -1,0 +1,5 @@
+Send broacast to the device using:
+
+adb -s A75299FRCNA3QZT0142 shell am broadcast -a TEST_ACTION com.example.acceptanceapp2
+
+Note: The service should be started on the device in order to receive the broadcast sent from the command line through ADB.
